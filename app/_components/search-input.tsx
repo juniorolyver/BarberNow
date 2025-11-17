@@ -1,0 +1,20 @@
+import { SearchIcon } from "lucide-react";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+
+const SearchInput = () => {
+  return (
+    <div className="flex items-center gap-2">
+      <Input
+        type="text"
+        placeholder="pesquise serviços ou barbearias"
+        className="border-border rounded-fulld"
+      />
+      <Button variant="dafault" size="icon" className="rounded-full">
+        <SearchIcon />
+      </Button>
+    </div>
+  );
+};
+
+export default SearchInput;

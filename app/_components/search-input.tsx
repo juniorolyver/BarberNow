@@ -10,7 +10,7 @@ const SearchInput = () => {
         placeholder="pesquise serviços ou barbearias"
         className="border-border rounded-fulld"
       />
-      <Button variant="dafault" size="icon" className="rounded-full">
+      <Button size="icon" className="rounded-full">
         <SearchIcon />
       </Button>
     </div>
